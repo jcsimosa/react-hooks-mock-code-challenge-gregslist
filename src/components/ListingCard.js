@@ -1,6 +1,11 @@
-import React from "react";
+//import React from "react";
+import React, { useState, useEffect } from "react";
 
 function ListingCard() {
+ 
+  
+
+
   return (
     <li className="card">
       <div className="image">
