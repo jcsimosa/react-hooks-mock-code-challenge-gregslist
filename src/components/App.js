@@ -17,7 +17,7 @@ console.log(listings)
   return (
     <div className="app">
       <Header />
-      <ListingsContainer />
+      <ListingsContainer list={listings}/>
     </div>
   );
 }
